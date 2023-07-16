@@ -91,7 +91,7 @@ nav img{
 }
 /*--What we do--*/
 .Course{
-    width: 80%;
+    width:100%
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -142,4 +142,33 @@ h1{
     display: flex;
     justify-content: space-between;
 
+}
+/*--Contact us--*/
+.form{
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+
+}
+label, input, textarea{
+    margin-bottom: 10px;
+    align-items: center;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 5px;
+}
+input[type="Call TO Action"]{
+    padding: 10px 20px;
+    background-color: #FF6565;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
